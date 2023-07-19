@@ -1,0 +1,39 @@
+
+body{
+    background-color: rgb(48, 48,48);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 33vw;
+    color: beige;
+}
+h1{
+    font-size: 45px;
+}
+section{
+    background-color: aliceblue;
+    color: rgb(48, 48,48);
+    padding: 15px;
+    border-radius: 15px;
+    width: 50%;
+    margin: auto;
+}
+.botao{
+    background-color: rgb(11, 43, 32);
+    color: beige;
+    width: 130px;
+    height: 30px;
+    border: 0;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.botao:hover{
+    background-color: rgb(138, 28, 28);
+    color: beige;
+    transform: translate(-3px);
+    transition-duration: 0.4s;
+    box-shadow: 0px 10px 15px rgb(48, 48,48);
+}
